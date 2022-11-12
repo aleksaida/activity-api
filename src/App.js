@@ -12,7 +12,7 @@ useEffect(() => {
 
 
 const getActivity = async () => {
-  const responce = await fetch(`http://www.boredapi.com/api/activity/`);
+  const responce = await fetch(`https://www.boredapi.com/api/activity/`);
   const data = await responce.json();
   setActivity(data)    
 }
