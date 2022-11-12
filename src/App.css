@@ -33,14 +33,12 @@ video {
 
 .text2 {
   font-size: 20px;
-  color: red;
+  color: aliceblue;
   font-family: 'Kalam', cursive;
 }
 
-
-
 span {
-  color: aliceblue;
+  color: red;
 }
 
 h1 {
@@ -79,6 +77,10 @@ h1 {
   .btn {
     width: 50%;
   }
+
+  video {
+    object-position: 60%;
+  }
 }
 
 @media all and (max-width: 500px){
@@ -95,7 +97,14 @@ h1 {
   .btn {
     width: 50%;
   }
-}
+
+  video {
+    object-position: 65%;
+  }
+
+ 
+
+  }
 
 @media all and (max-width: 280px){
   .text {
@@ -111,4 +120,11 @@ h1 {
   .btn {
     width: 70%;
   }
+
+  video {
+    object-position: 60%;
+  }
+
+
+ 
 }
