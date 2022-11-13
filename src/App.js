@@ -25,7 +25,7 @@ const getActivity = async () => {
           <source src={video} type="video/mp4" />
         </video>
         <h1>If you don't know what to do</h1>
-        <button className="btn" onClick={ () => getActivity() }>Click here</button>
+        <button className="btn" onClick={getActivity}>Click here</button>
       </div>
 
       <div className='activContainer'>
